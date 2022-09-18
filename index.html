@@ -1,0 +1,65 @@
+<!DOCTYPE html5>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color schema generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <section class="top-section">
+        <nav>
+            <div class="container">
+                <div class="form-container">
+                    <form id="get-color-scheme">
+                        <label>
+                            <input id="color-picker" class="picker round" type="color">
+                        </label>
+                        <div class="dropdown ">
+                            <button id="scheme-modes" class="dropbtn round">monochrome</button>
+                            <div class="dropdown-content">
+                                <a href="#" class="dropdown-list">monochrome-dark</a>
+                                <a href="#" class="dropdown-list">monochrome-light</a>
+                                <a href="#" class="dropdown-list">analogic</a>
+                                <a href="#" class="dropdown-list">complement</a>
+                                <a href="#" class="dropdown-list">analogic-complement</a>
+                                <a href="#" class="dropdown-list">triad</a>
+                                <a href="#" class="dropdown-list">quad</a>
+                            </div>
+                        </div>
+                        <button class="color-btn round" type="submit">Get color scheme</button>
+                    </form>
+                </div>
+
+            </div>
+        </nav>
+    </section>
+
+    <section class="bottom-section">
+
+        <div class="color-scheme">
+            <div class="colors">
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+                <div class="col"></div>
+            </div>
+            <div class="color-name colors">
+                <div class="col color-text"></div>
+                <div class="col color-text"></div>
+                <div class="col color-text"></div>
+                <div class="col color-text"></div>
+                <div class="col color-text"></div>
+            </div>
+        </div>
+
+    </section>
+    <script src="index.js"></script>
+</body>
+
+</html>
